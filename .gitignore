@@ -1,0 +1,246 @@
+# ============================================================
+# PYTHON
+# ============================================================
+
+# Byte-compiled / optimised / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Translations
+*.mo
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# IPython / Jupyter
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Type checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+
+# ============================================================
+# VIRTUAL ENVIRONMENT
+# ============================================================
+
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+
+# ============================================================
+# VIDEO FILES
+# ============================================================
+
+# Input / output video files (can be very large)
+*.mp4
+*.webm
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+*.m4v
+*.mpg
+*.mpeg
+
+
+# ============================================================
+# IMAGE FILES (generated outputs)
+# ============================================================
+
+resized_image.png
+cropped_image.png
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.tiff
+*.gif
+
+# Un-ignore intentionally tracked sample/asset images:
+# !assets/sample_frame.jpg
+
+
+# ============================================================
+# FACE RECOGNITION / DLIB MODEL FILES
+# ============================================================
+
+# dlib downloads large binary model files on first run.
+# These should not be committed to source control.
+*.dat
+shape_predictor_*.dat
+dlib_face_recognition_resnet_model_*.dat
+
+
+# ============================================================
+# ENVIRONMENT VARIABLES / SECRETS
+# ============================================================
+
+.env
+.env.*
+*.env
+secrets.py
+config_local.py
+
+
+# ============================================================
+# IDEs & EDITORS
+# ============================================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim / Neovim
+*.swp
+*.swo
+*~
+Session.vim
+.netrwhist
+
+# Emacs
+*#
+.\#*
+
+# Spyder
+.spyderproject.cfg
+.spyproject/
+
+# Rope
+.ropeproject/
+
+
+# ============================================================
+# OPERATING SYSTEM
+# ============================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+
+# ============================================================
+# LOGS & TEMPORARY FILES
+# ============================================================
+
+*.log
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+
+# Debug output files created during development
+debug_output.txt
+final_run.txt
+verify*.txt
